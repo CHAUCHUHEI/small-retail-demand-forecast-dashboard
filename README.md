@@ -17,7 +17,7 @@ This dashboard helps small shop owners predict future demand, decide how much st
    - Click the green **Code** button → **Download ZIP**
    - Unzip the folder on your computer
 
-2. **Install Python (only once)**
+2. **Install Python**
    - Go to https://www.python.org/downloads/
    - Download and install the latest Python version (recommended: 3.10 or 3.11)
    - During installation, **check the box** "Add python.exe to PATH"
