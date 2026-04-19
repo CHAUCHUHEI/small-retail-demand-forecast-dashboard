@@ -16,7 +16,7 @@ These notebooks document the systematic experimentation and decision-making proc
 
 | Notebook                                    | Description |
 |---------------------------------------------|-----------|
-| `Model_Exploration_and_Development.ipynb`   | Notebook containing the complete modelling process |
+| `Model_Exploration.ipynb`   | Notebook containing the complete modelling process |
 
 ## How to Use
 
