@@ -16,8 +16,6 @@ These notebooks document the systematic experimentation and decision-making proc
 
 You can open any notebook using Jupyter Notebook or JupyterLab.
 
-These notebooks are intended for academic review and to demonstrate the development journey rather than for end-user execution.
-
 ---
 
 **Note**:  
