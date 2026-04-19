@@ -1,1 +1,53 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Model artifacts (if any)
+*.joblib
+*.pkl
+
+# Data files
+# 忽略大型資料集，但保留你 repo 裡的 4 個 sample CSV
+data/*.csv
+!data/pizza_dataset.csv
+!data/synthetic_less_cols.csv
+!data/synthetic_patterned_dataset.csv
+!data/synthetic_random_dataset.csv
+
+# Video files
+# 保留 demo_video.mp4，其餘忽略
+video_demo/*.mp4
+video_demo/*.mov
+video_demo/*.avi
+video_demo/*.mkv
+!video_demo/demo_video.mp4
+!video_demo/README.md
 
