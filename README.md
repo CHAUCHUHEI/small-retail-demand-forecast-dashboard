@@ -1,45 +1,60 @@
 # Retail Demand Forecast & Inventory Assistant
 
-**A simple and practical demand forecasting tool designed specifically for small independent retail shops.**
+**A lightweight, practical demand forecasting tool designed specifically for small independent retail shops.**
 
-This dashboard helps small shop owners predict future demand, decide how much stock to reorder, and understand their store’s unique sales patterns without needing any technical knowledge.
+This dashboard helps small shop owners predict future demand, plan stock levels, and understand their store’s unique sales patterns without requiring technical knowledge.
 
-### What This Tool Does
-- Predicts future sales for the next 7 to 60 days
-- Suggests how much stock you should reorder
-- Adjusts safety stock based on your risk preference (Conservative / Neutral / Aggressive)
-- Shows your store’s unique patterns 
-- Works even if your data is incomplete
+## What This Tool Does
+- **Forecasts future sales** for the next **7–60 days**
+- **Recommends reorder quantities** based on predicted demand
+- **Calculates safety stock** using your chosen risk level  
+  *(Conservative / Neutral / Aggressive)*
+- **Identifies store‑specific patterns**, including:
+  - Weekly sales rhythm  
+  - Promotion effects  
+  - Weather impact  
+  - Seasonality
 
-### How to Use This Tool 
+This tool is built for the realities of small retailers: messy data, limited time, and the need for simple, actionable insights.
+---
+### 1. Installation (One-time setup)
 
 1. **Download the files**
    - Click the green **Code** button → **Download ZIP**
    - Unzip the folder on your computer
 
 2. **Install Python**
-   - Go to https://www.python.org/downloads/
-   - Download and install the latest Python version (recommended: 3.10 or 3.11)
-   - During installation, **check the box** "Add python.exe to PATH"
+   - Download from: https://www.python.org/downloads/
+   - Recommended: **Python 3.10 or 3.11**
 
 3. **Install required libraries**
    - Open **Command Prompt** (Windows) or **Terminal** (Mac)
-   - Navigate to the project folder using `cd` command
-   - Run this command:  pip install -r requirements.txt
+   - Navigate to the project folder
+   - Run: `pip install -r requirements.txt`
   
 4. **Run the dashboard**
-   - In the same terminal, run: streamlit run dashboard.py
+   - In the same terminal, Run: `streamlit run dashboard.py`
    - Your web browser will automatically open the dashboard
 
-5. **How to use the dashboard**
-  - Click **Browse files** and upload your sales CSV file
-  - Adjust the settings on the top (Risk Level, Cash Flow Cycle, Lead Time, Forecast Horizon)
-  - Click on the tabs to see forecasts and business insights
-  - Download the result as CSV if needed
+### 2. Preparing Your Sales CSV File
 
-**Important**: 
-  - Your sales file must have at least these columns: `Date`, `Product ID`, `Units Sold`, `Price`
-  - The more complete your data is, the better the insights will be
+**Required columns** (must have these):
+- `Date` → format: YYYY-MM-DD (e.g. 2025-01-15)
+- `Product ID`
+- `Units Sold`
+- `Price`
+
+**Optional columns** (recommended — improves accuracy and insights):
+- `Category`
+- `Inventory Level`
+- `Weather Condition`
+- `Holiday/Promotion` (1 = yes, 0 = no)
+- `Seasonality`
+- `Units Ordered`
+- `Discount`
+
+**Tip**: The more complete your data is, the better the forecasts and business insights will be.  
+Even if some optional columns are missing, the dashboard will still work and clearly tell you what is affected.
 
 ### Author
 Developed by Chau Chu Hei as a final year project (CI601).
