@@ -12,12 +12,6 @@ These notebooks document the systematic experimentation and decision-making proc
 - Developing and tuning the final ensemble model
 - Testing rolling forecast behaviour in a realistic setting
 
-## Notebook List
-
-| Notebook                                    | Description |
-|---------------------------------------------|-----------|
-| `Model_Exploration.ipynb`   | Notebook containing the complete modelling process |
-
 ## How to Use
 
 You can open any notebook using Jupyter Notebook or JupyterLab.
@@ -27,4 +21,4 @@ These notebooks are intended for academic review and to demonstrate the developm
 ---
 
 **Note**:  
-All major design decisions in the final `dashboard.py` (feature selection, ensemble weights, forecast horizon, etc.) were based on the experiments documented here.
+All major design decisions in the final `dashboard.py` were based on the experiments documented here.
