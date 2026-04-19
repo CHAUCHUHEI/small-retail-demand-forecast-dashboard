@@ -1,9 +1,7 @@
-## Project Folders
+### Project Folders
 
-- **`data/`** → Contains sample CSV files you can use to test the dashboard.
-  - `sample_sales.csv` → Simple example for quick testing
-  - `synthetic_random.csv` → Random data (for testing model robustness)
-  - `synthetic_patterned.csv` → Data with weekly and promotion patterns
-  - `pizza_sales_processed.csv` → Real-world processed dataset (from Kaggle)
-
-You can use any of these files to try the dashboard immediately.
+- **`data/`** — Sample and test datasets for running and validating the dashboard.
+  - `sample_sales.csv` — Basic example for quick testing
+  - `synthetic_random.csv` — Random data for robustness testing
+  - `synthetic_patterned.csv` — Data with weekly and promotion patterns
+  - `pizza_sales_processed.csv` — Real-world Kaggle dataset (processed)
