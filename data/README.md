@@ -1,11 +1,11 @@
-##  Project Folders
+## 📁 Project Folders
 
 ### `data/` — Sample and test datasets  
-Contains example datasets used for testing, validating, and demonstrating the dashboard.
+Contains multiple CSV files used for testing and validating the dashboard under different conditions.
 
-- **`sample_sales.csv`** — Small, simple dataset for quick testing  
-- **`synthetic_random.csv`** — Randomly generated data for robustness testing  
-- **`synthetic_patterned.csv`** — Synthetic data with weekly and promotion patterns  
-- **`pizza_sales_processed.csv`** — Real-world Kaggle pizza sales dataset (cleaned and processed)
+- **`synthetic_random_dataset.csv`** — Randomly generated data for testing model robustness  
+- **`synthetic_patterned_dataset.csv`** — Synthetic data with weekly cycles and promotion effects  
+- **`synthetic_less_cols.csv`** — Minimal dataset containing only required columns (tests tolerance to incomplete data)  
+- **`pizza_dataset.csv`** — Real-world processed dataset from Kaggle (pizza sales)
 
-These datasets allow you to test the dashboard even if you don’t have your own retail data.
+You can use any of these datasets to try the dashboard immediately without preparing your own data.
