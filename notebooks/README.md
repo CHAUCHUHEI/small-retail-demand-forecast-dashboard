@@ -16,7 +16,7 @@ These notebooks document the systematic experimentation and decision-making proc
 
 | Notebook                                    | Description |
 |---------------------------------------------|-----------|
-| `Model_Exploration_and_Development.ipynb`   | Main notebook containing the complete modelling process (Data Exploration → Feature Engineering → Model Comparison → Ensemble → Rolling Forecast) |
+| `Model_Exploration_and_Development.ipynb`   | Notebook containing the complete modelling process |
 
 ## How to Use
 
