@@ -15,8 +15,9 @@ This dashboard helps small shop owners predict future demand, plan stock levels,
   - Weather impact  
   - Seasonality
 
-This tool is built for the realities of small retailers: messy data, limited time, and the need for simple, actionable insights.
 ---
+## How to Use This Tool
+
 ### 1. Installation (One-time setup)
 
 1. **Download the files**
