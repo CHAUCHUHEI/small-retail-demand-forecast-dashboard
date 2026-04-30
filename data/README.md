@@ -1,5 +1,3 @@
-## 📁 Project Folders
-
 ### `data/` — Sample and test datasets  
 Contains multiple CSV files used for testing and validating the dashboard under different conditions.
 
